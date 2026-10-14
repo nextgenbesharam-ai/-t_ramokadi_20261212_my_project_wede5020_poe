@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(202, 45, 181, 0)60%, rgba(202, 45, 181, 0)60%), url(BOMBAKLAAT\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    background: rgba(235, 219, 233, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    border-radius: 30px;
+    border: 1px solid rgba(235, 219, 233, 0.4);
+    border-bottom: 2px solid rgba(201, 168, 106, 1);
+    flex: 1;
+    justify-content: center;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: #fdf5fb;
+    text-shadow: 0 0 6px rgba(201, 168, 106, 0.9), 0 0 14px rgba(202, 168, 181, 0.5);
+
+}
+
+.icon {
+    flex-shrink: 0;
+}
+
+.logo {
+    color: #c9a86a;
+    font-family: 'Arial';
+    font-size: 1.5rem;
+    white-space: nowrap;
+
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 60px;
+    background-color: rgba(235, 219, 233, 0.4);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border-bottom: 2px solid rgba(201, 168, 106, 1);
+    transition: 0.3s ease-in-out;
+
+}
+
+.search-bar input {
+    width: 0%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: transparent;
+    color: rgba(201, 168, 106, 1);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+}
+
+.search-bar i {
+    cursor: pointer;
+    font-size: 20px;
+    color: #c9a86a;
+}
+
+.search-bar:hover {
+    width: 260px;
+}
+
+.search-bar:hover input {
+    width: 100%;
+    opacity: 1;
+}
+
+footer {
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.container-box {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 33.3%;
+}
+section {
+    max-width: var(--container);
+    margin: 0 auto;
+}
+section .box{
+    margin-bottom: 3rem;
+}
+section iframe{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 14px;
+    border: 1px solid var(#c9a86a);
+}
+.mistake a{
+    color: var(--gold);
+    font-weight: 520;
+}
+.SORRYY ul{
+    list-style: none;
+    margin-top: 1.5rem;
+}
+.SORRYY li {
+    padding: 1rem 0;
+    border-bottom: 2px solid rgba(201, 168, 106, 1);
+}
+.SORRYY li a {
+    color:#c9a86a
+}
